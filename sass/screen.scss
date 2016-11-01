@@ -1,0 +1,32 @@
+@import "compass/reset";
+// @import "all1920.css";
+@import "header.css";
+@import "header480.css";
+@import "header768.css";
+@import "header960.css";
+@import "section.css";
+@import "section768.css";
+@import "section960.css";
+@import "section480.css";
+@import "article.css";
+@import "article480.css";
+@import "article768.css";
+@import "article960.css";
+@import "compass/utilities/sprites";
+$sprite-spacing: 5px;
+@import "../img/sprite/*.png";
+
+	*{
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+		text-decoration: none;
+		}
+
+	.wrap{
+		font-family: 'League Gothic', arial;
+		// font-family: 'Open Sans', sans-serif;
+		// font-weight: 300 800;
+		// overflow: hidden;
+		overflow-x: hidden;
+	}

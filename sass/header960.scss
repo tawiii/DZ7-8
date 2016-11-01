@@ -1,0 +1,115 @@
+@media screen and (min-width: 981px){
+
+	.header{
+		background: url('../img/Home1920.jpg') no-repeat;
+		// background-size: cover;
+		background-position: 50% 0%;
+		// padding-bottom: 162px;
+		border-bottom: 1px solid #35273c;
+		padding-top: 65px;
+		// padding-left: 17px;
+		padding-bottom: 52px;
+		
+		&_wrapper{
+			width: 961px;
+			margin: 0 auto;
+		}
+
+
+		&_logName{
+			// padding-bottom: 123px;
+			font-size: 48px;
+			color:#fff;
+			text-shadow: 0px 3px 3px rgba(63, 63, 63, 1);
+			
+			margin-left: -4px;
+		}
+		&_violet{
+			color: #533b5e;
+			text-shadow: none;
+		}
+		&_slider{
+			display: block;
+			padding-top: 119px;
+			padding-bottom: 195px;
+			font-size: 60px;
+			color:#fff;
+			margin-left: -3px;
+			text-shadow: 0px 3px 3px rgba(63, 63, 63, 1);
+			background: url(../img/Ip768.png) 89% 17% no-repeat;
+			clear: both;
+		}
+		&_pink{
+			margin-top: -1px;
+			display: block;
+			font-size: 32px;
+			color:#edbfff;
+		}
+		&_headText{
+			display: block;
+			font-size: 18px;
+			color:#fff;
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 300;
+			width: 55%;
+			padding-top: 7px;
+			line-height: 24px;
+		}
+		&_textHead{
+			display: none;
+		}
+	}
+	.menu{
+			height: 174px;
+			margin-top: -50px;
+   			 margin-left: 281px;
+			&__home{
+				display: none;
+			}
+			&_sub__item{
+				display: inline-block;
+			}
+			&_sub__link{
+				display: block;
+				font-size: 24px;
+				color: #fff;
+				margin-right: -2px;
+				margin-left: 42px;
+				padding-bottom: 5px;
+				padding-right: 9px;
+				margin-top: 10px;
+				&:hover{
+					border-bottom: 2px solid #edbfff;
+					padding-bottom: 3px;
+				}
+			}
+		}
+		.radio{
+				position: relative;
+				left: 74%;
+				top: -3%;
+				margin-top: -19px;
+			
+
+			&_item {
+				display: inline-block;
+				margin-right: 4px;
+				width: 16px;
+				height: 16px;
+				background-color: rgba(0,0,0,0.4);
+				border-radius: 50%;
+					&:hover .radio_link {
+				display: block;
+				}
+			}
+
+			&_link {
+				display: none;
+				margin: 3px auto;
+				width: 10px;
+				height: 10px;
+				background-color: #fff;
+				border-radius: 50%;
+				}
+			}
+		}

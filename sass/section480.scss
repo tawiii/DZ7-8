@@ -1,0 +1,59 @@
+@media (min-width: 480px) and ( max-width: 767px){
+$sprite-spacing: 5px;
+@import "../img/sprite/*.png";
+
+	.section{
+	padding-top: 78px;
+	padding-bottom: 47px;
+	background: linear-gradient(to top, #36293d, #755184);
+
+	&_wrapper{
+		width: 480px;
+		margin: 0 auto;
+	}
+	&_definition{
+		@include sprite-sprite(key);
+		padding-left: 54px;
+    	padding-right: 228px;
+		width: 141px;
+		margin: 0 auto;
+		height: 32px;
+		font-size: 24px;
+		color:#fff;
+		clear: both;
+		white-space: nowrap;
+	}
+	&_description{
+		width: 389px;
+		margin: 0 auto;
+		font-size: 16px;
+		color:#fff;
+		padding-left: 73px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 300;
+		line-height: 24px;
+		margin-top: -5px;
+	}
+	&_more{
+		display: block;
+		// float: right;
+		text-align: right;
+		padding-top: 15px;
+		padding-right: 27px;
+		padding-bottom: 24px;
+		font-size: 18px;
+		color:#fff;
+		&:hover{
+			text-shadow: 3px 0px 3px rgba(197, 249, 225, 1);
+			}
+		}
+		&_padd{
+			padding-bottom: 30px;
+		}
+		&__middlColumn{
+			position: relative;
+			top: -5px;
+		}
+	}
+	
+}

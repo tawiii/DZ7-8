@@ -1,0 +1,97 @@
+@media screen and (min-width: 981px){
+$sprite-spacing: 5px;
+@import "../img/sprite/*.png";
+
+.section{
+	padding-top: 76px;
+	padding-bottom: 68px;
+	background: linear-gradient(to top, #36293d, #755184);
+
+	&_wrapper{
+		width: 960px;
+		margin: 0 auto;
+	}
+	&_column1{
+		@include sprite-sprite(key);
+		background-position: 6px -332px;
+		padding-left: 61px;
+		// margin-left: 9px;
+		width: 180px;
+		// margin: 0 auto;
+		height: 32px;
+		font-size: 30px;
+		color:#fff;
+		clear: both;
+	}
+	&_column2{
+		@include sprite-sprite(speak);
+		background-position: -1px -529px;
+		padding-left: 54px;
+		margin-left: 86px;
+		width: 180px;
+		// margin: 0 auto;
+		height: 32px;
+		font-size: 30px;
+		color:#fff;
+		clear: both;
+	}
+	&_column3{
+		@include sprite-sprite(melodi);
+		background-position: 0px -369px;
+		padding-left: 53px;
+		margin-left: 9px;
+		width: 180px;
+		// margin: 0 auto;
+		height: 32px;
+		font-size: 30px;
+		color:#fff;
+		clear: both;
+	}
+	&_description{
+		width: 226px;
+		margin: 0 auto;
+		font-size: 16px;
+		color:#fff;
+		padding-left: 59px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 300;
+		line-height: 24px;
+		margin-top: 6px;
+		overflow: hidden;
+		height: 119px;
+	}
+	&_more{
+		display: block;
+		float: right;
+		padding-top: 20px;
+		font-size: 18px;
+		color:#fff;
+		margin-right: 3px;
+		&:hover{
+			text-shadow: 3px 0px 3px rgba(197, 249, 225, 1);
+			}
+		}
+		&_inline{
+			display: inline-block;
+			// width: 25%;
+		}
+		&_padleft{
+			margin-left: 46px;
+			// position: relative;
+			// right: -191px;
+		}
+		&__middlColumn{
+		margin-left: -28px;
+		}
+		&_padd{
+			margin-right: 10px;
+		}
+		&_centr{
+			margin-left: 80px;
+		}
+		&_moremarg{
+			margin-right: 5px;
+		}
+	}
+	
+}
